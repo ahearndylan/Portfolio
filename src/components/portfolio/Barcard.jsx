@@ -19,7 +19,7 @@ const Barcard = ({ onBack }) => {
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="public/BARCARDproject.png"
+            src="/BARCARDproject.png"
             alt="Digital Bar Card"
             className="rounded-xl mx-auto w-[300px] h-[300px] object-contain"
           />

@@ -17,7 +17,7 @@ const CKHQ = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/logo5.png"
+            src="/logo5.png"
             alt="Court Kings HQ Logo"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />

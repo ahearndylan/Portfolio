@@ -17,7 +17,7 @@ const Centro = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/CENTRO.jpg"
+            src="/CENTRO.jpg"
             alt="Centro Logo"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />

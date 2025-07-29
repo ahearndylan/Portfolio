@@ -17,7 +17,7 @@ const Alumni = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/2.png"
+            src="/2.png"
             alt="Alumni App Logo"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />

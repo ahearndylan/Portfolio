@@ -18,7 +18,7 @@ const Foodwaste = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/FOODWASTEproject.png"
+            src="/FOODWASTEproject.png"
             alt="Clark University Dining Logo"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />

@@ -17,7 +17,7 @@ const Pacman = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/PACMANgif.gif"
+            src="/PACMANgif.gif"
             alt="Pac-Man Screenshot"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />

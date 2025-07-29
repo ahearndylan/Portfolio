@@ -17,7 +17,7 @@ const Game = ({ onBack }) => {
 
         <div className="flex flex-col md:flex-row items-center mb-12">
           <img
-            src="/public/GAMEPLATFORMgif.gif"
+            src="/GAMEPLATFORMgif.gif"
             alt="Game Platform Screenshot"
             className="w-64 h-auto mb-6 md:mb-0 md:mr-10"
           />
