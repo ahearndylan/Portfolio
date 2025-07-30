@@ -5,6 +5,7 @@ const Foodwaste = ({ onBack }) => {
     <div className="bg-gray-100 text-black min-h-screen px-4 py-10">
       <div className="max-w-6xl mx-auto">
         <br />
+<br></br>
 
         <button
           className="mb-8 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
