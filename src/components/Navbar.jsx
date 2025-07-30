@@ -5,7 +5,7 @@ const Navbar = ({ setSelectedProject }) => {
 
   const handleNavClick = (sectionId) => {
     setSelectedProject(null);
-    setMenuOpen(false); // close menu after clicking
+    setMenuOpen(false); 
     setTimeout(() => {
       document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
     }, 100);
@@ -14,7 +14,6 @@ const Navbar = ({ setSelectedProject }) => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-gray-900 shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center text-white">
-        {/* Logo + Name */}
         <div className="flex items-center space-x-3">
           <img
             src="/logo2.PNG"
@@ -24,7 +23,6 @@ const Navbar = ({ setSelectedProject }) => {
           <h1 className="text-xl font-bold tracking-wide">Dylan Ahearn</h1>
         </div>
 
-        {/* Hamburger Icon */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
             <svg
@@ -43,7 +41,6 @@ const Navbar = ({ setSelectedProject }) => {
           </button>
         </div>
 
-        {/* Full Menu (hidden on mobile) */}
         <ul className="hidden md:flex space-x-6 text-sm font-medium">
           <li><button onClick={() => handleNavClick("hero")} className="hover:text-indigo-400 transition">Home</button></li>
           <li><button onClick={() => handleNavClick("about")} className="hover:text-indigo-400 transition">About</button></li>
@@ -53,7 +50,6 @@ const Navbar = ({ setSelectedProject }) => {
         </ul>
       </div>
 
-      {/* Dropdown Menu (only on mobile) */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col space-y-3 text-sm font-medium text-white">
