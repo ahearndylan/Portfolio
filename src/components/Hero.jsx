@@ -100,9 +100,10 @@ const Hero = () => {
         </div>
 
         <div
-          className="p-4 font-mono text-sm sm:text-base h-56 overflow-hidden relative"
-          style={{ color: "#00ff00" }}
-        >
+  className="p-4 font-mono text-sm sm:text-base h-auto sm:h-56 overflow-y-auto relative"
+  style={{ color: "#00ff00", maxHeight: "14rem" }} // still limits it on mobile but avoids cutoff
+>
+
           {showWelcome ? (
             <div className="flex items-center justify-center h-full text-4xl sm:text-5xl font-bold tracking-wider">
               WELCOME
