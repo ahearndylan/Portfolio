@@ -24,6 +24,11 @@ const About = () => {
         return (
           <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
             <li>
+              Supported <strong>Lincoln Financial Group’s CX & CI teams</strong> by creating user flows,
+              Figma prototypes, and interactive demos that shaped enhancements across the GP, RPS,
+              and Wellness Path customer portals.
+            </li>
+            <li>
               Partnered with <strong>CENTRO</strong> staff to launch a tailored Django platform, including dynamic
               admin tools and cost-saving infrastructure using PostgreSQL, NGINX, and DigitalOcean.
             </li>
@@ -70,7 +75,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-start">
         <div className="flex flex-col items-center text-center space-y-4">
           <img
-            src="/headshot.png"
+            src="/headshot2.jpg"
             alt="Dylan Ahearn"
             className="w-36 h-auto rounded-lg shadow-md object-cover"
           />

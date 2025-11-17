@@ -20,7 +20,7 @@ const Resume = () => {
 
       <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
         <iframe
-          src="/resume.pdf"
+          src="/resumeNov.pdf"
           title="Resume PDF"
           className="w-full h-[85vh] rounded-b-xl"
         />

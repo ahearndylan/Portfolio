@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const terminalText = [
-  "Hi there! I'm Dylan Ahearn, a recent Computer Science graduate from Clark University.",
+  "Hi there! I'm Dylan Ahearn, a Computer Science graduate from Clark University.",
   "I'm currently based in MA and enjoy building clean, functional software.",
   "Most of my projects are focused on making a real impact in my community.",
   "I have worked across the stack to build tools that are simple, scalable, and user-focused.",
