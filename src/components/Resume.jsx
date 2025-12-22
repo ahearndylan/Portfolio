@@ -11,7 +11,7 @@ const Resume = () => {
       <div className="max-w-sm mx-auto bg-white p-6 rounded-xl shadow-md mb-10 text-center">
         <a
           href="/resume.pdf"
-          download="Dylan_Ahearn_Resume.pdf"
+          download="resumeNov.pdf"
           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md transition"
         >
           Download PDF
