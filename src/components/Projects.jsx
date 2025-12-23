@@ -23,7 +23,7 @@ const projects = [
     image: "/WECANproject.png",
   },
   {
-    title: "Digital Bar Card Project",
+    title: "Digital Bar Card",
     description:
       "A Django-based project aiming to replace traditional paper-based Bar Cards for Massachusetts lawyers with digital versions.",
     technologies: "Django, Python, SQLite, HTML, CSS, JavaScript, Git",
@@ -37,7 +37,7 @@ const projects = [
     image: "/FOODWASTEproject.png",
   },
   {
-    title: "IVOC Nonprofit Website",
+    title: "IVOC Nonprofit",
     description:
       "Developed and maintained a Django-based nonprofit site to enhance engagement and streamline operations.",
     technologies: "Django, Python, HTML, CSS, JavaScript, NGINX, Docker, Git",

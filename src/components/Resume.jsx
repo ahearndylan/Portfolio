@@ -10,8 +10,8 @@ const Resume = () => {
 
       <div className="max-w-sm mx-auto bg-white p-6 rounded-xl shadow-md mb-10 text-center">
         <a
-          href="/resumeNov.pdf"
-          download="resumeNov.pdf"
+          href="/DylanAhearnResume.pdf"
+          download="DylanAhearnResume.pdf"
           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md transition"
         >
           Download PDF
@@ -20,7 +20,7 @@ const Resume = () => {
 
       <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
         <iframe
-          src="/resumeNov.pdf"
+          src="/DylanAhearnResume.pdf"
           title="Resume PDF"
           className="w-full h-[85vh] rounded-b-xl"
         />

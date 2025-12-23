@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const terminalText = [
-  "Hi there! I'm Dylan Ahearn, a Computer Science graduate from Clark University.",
-  "I'm currently based in MA and enjoy building clean, functional software.",
-  "Most of my projects are focused on making a real impact in my community.",
-  "I have worked across the stack to build tools that are simple, scalable, and user-focused.",
-  "Explore my recent work and feel free to connect with me!",
+  "Hi, I'm Dylan Ahearn — a Computer Science graduate from Clark University.",
+  "I build customer-facing software solutions that bridge technology and business needs.",
+  "My work spans enterprise CX teams, nonprofit platforms, and real-world deployments.",
+  "I enjoy translating complex systems into tools that are clear, usable, and impactful.",
+  "Explore my site and feel free to connect with me!",
 ];
 
 const Hero = () => {

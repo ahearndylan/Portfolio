@@ -10,42 +10,42 @@ const About = () => {
       case "Background":
         return (
           <p className="text-sm sm:text-base">
-            I'm a recent Computer Science graduate from Clark University, where I focused on software engineering,
-            web development, and backend systems. My time at Clark was shaped by real-world projects that pushed
-            me to build scalable, user-focused solutions. 
+             I’m a Computer Science graduate from Clark University with experience delivering
+             customer-facing software solutions across enterprise and nonprofit environments.
+             My background centers on translating business needs into clear workflows, usable
+             interfaces, and production-ready systems.
             <br></br>
             <br></br>
-            Before Clark, I was a student-athlete at Slippery Rock
-            University (NCAA Division II), where I deepened my skills in programming and gained hands-on experience
-            applying core computer science principles in both academic and personal projects.
+            I’ve worked closely with stakeholders, designers, and engineers throughout 
+            the full software development lifecycle, participating in discovery, sprint planning, 
+            backlog refinement, prototyping, and deployment to deliver practical and scalable
+            solutions. Ensuring tools are focused on the end user.
           </p>
         );
       case "Work Experience":
         return (
           <ul className="list-disc list-inside space-y-2 text-sm sm:text-base">
             <li>
-              Supported <strong>Lincoln Financial Group’s CX & CI teams</strong> by creating user flows,
-              Figma prototypes, and interactive demos that shaped enhancements across the GP, RPS,
-              and Wellness Path customer portals.
+              Supported <strong>Lincoln Financial Group’s CX & CI teams</strong> by translating
+              business needs into user flows, Figma prototypes, and interactive demos across
+              the GP, RPS, and Wellness Path customer portals.
             </li>
             <li>
-              Partnered with <strong>CENTRO</strong> staff to launch a tailored Django platform, including dynamic
-              admin tools and cost-saving infrastructure using PostgreSQL, NGINX, and DigitalOcean.
+              Partnered with <strong>CENTRO</strong> stakeholders to deliver a tailored Django
+              platform, including admin workflows and cost-efficient infrastructure using
+              PostgreSQL, NGINX, and DigitalOcean.
             </li>
             <li>
-              Co-led the development of a full software system for <strong>WeCan LLC</strong>, enabling user scheduling,
-              redemption tracking, and nonprofit donations through a web and mobile-friendly platform.
+              Co-led development of a full software system for <strong>WeCan LLC</strong>,
+              supporting scheduling, redemption tracking, and donations through a web and
+              mobile-friendly platform.
             </li>
             <li>
               Built and deployed a custom Django site for <strong>Inner Voice Outer Change (IVOC)</strong>,
-              featuring mobile responsiveness, donation integration, and full staff content control via the admin panel.
+              enabling mobile access, donation integration, and non-technical staff content control.
             </li>
-            <li>
-              Contributed to real-world software builds with Clark’s <strong>Software Engineering Team</strong>,
-              collaborating with faculty and peers on full lifecycle projects across diverse domains.
-            </li>
-            <br></br>
           </ul>
+
         );
       case "Skills":
         return (
