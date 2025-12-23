@@ -78,9 +78,9 @@ const Projects = ({ onSelect }) => {
           const isCentro = project.title === "CENTRO Inc. Non-Profit";
           const isCKHQ = project.title === "Court Kings HQ";
           const isWecan = project.title === "WeCan Mobile Redemption App";
-          const isBarcard = project.title === "Digital Bar Card Project";
+          const isBarcard = project.title === "Digital Bar Card";
           const isFoodwaste = project.title === "Food Waste Reduction App";
-          const isIVOC = project.title === "IVOC Nonprofit Website";
+          const isIVOC = project.title === "IVOC Nonprofit";
           const isPacman = project.title === "Pac-Man Game";
           const isGame = project.title === "Game Platform Project";
           const isAlumni = project.title === "Clark Alumni App";
