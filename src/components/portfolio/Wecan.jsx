@@ -29,7 +29,7 @@ const Wecan = ({ onBack }) => {
               Using a mobile platform, residents can schedule collections and redeem cans and bottles directly from their homes or businesses. 
               The app leverages Django for backend services and Android Studio for the mobile experience, making it accessible and easy to use.
             </p>
-            <p><strong>Live Website:</strong> <a href="https://wecan-4520.onrender.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">CENTRO Inc.</a></p>
+            <p><strong>Live Website:</strong> <a href="https://wecan-4520.onrender.com/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">WeCan</a></p>
             <p><strong>GitHub Repository:</strong> <a href="https://github.com/Gitesh307/WeCan" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">View the Project on GitHub</a></p>
           </div>
         </div>
